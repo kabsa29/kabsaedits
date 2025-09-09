@@ -8,4 +8,4 @@ document.addEventListener("DOMContentLoaded", () => {
       document.querySelector(link.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
     });
   });
-});
+}); 
