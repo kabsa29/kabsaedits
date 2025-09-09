@@ -101,7 +101,7 @@ main {
   text-align: center;
 }
 
-video {
+video, .video-card img {
   max-width: 100%;
   border-radius: 8px;
 }
@@ -125,6 +125,21 @@ video {
 .contact {
   text-align: center;
   margin-top: 2rem;
+}
+
+.contact-info {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.contact-info a {
+  color: #ff4da6;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
 }
 
 .contact form {
